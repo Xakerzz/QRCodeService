@@ -1,0 +1,21 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.HashMap;\nimport java.util.Scanner;\n\nclass Main {\n  \
+    \  private static void printCommon(int[] firstArray, int[] secondArray) {\n  \
+    \      // Enter your Code Here\n    }\n\n    public static void main(String[]\
+    \ args) {        \n        Scanner scanner = new Scanner(System.in);\n       \
+    \ int n = scanner.nextInt();\n        int[] firstArray = new int [n];\n      \
+    \  int[] secondArray = new int [n];\n        for (int i = 0; i < n; ++i) { \n\
+    \            firstArray[i] = scanner.nextInt();\n        }\n        for (int i\
+    \ = 0; i < n; ++i) { \n            secondArray[i] = scanner.nextInt();\n     \
+    \   }\n\n        printCommon(firstArray,secondArray);\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25743#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 31 Jan 2024 10:21:11 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<code>HashMap&lt;k,v&gt; map;</code>"
+  - text: <code>HashMap&lt;&gt; map = new HashMap&lt;&gt;;</code>
+  - text: "<code>HashMap(K,V) map = new HashMap();</code>"
+  - text: "<code>HashMap&lt;K,V&gt; map = new HashMap&lt;&gt;();</code>"
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25733#comment
+status: Solved
+record: -1
+local_check: false

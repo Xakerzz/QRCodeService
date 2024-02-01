@@ -1,0 +1,33 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.HashMap;
+      import java.util.Scanner;
+      
+      class Main {
+          private static void printMaxKey(HashMap<Integer, Integer> map) {
+              // implement me
+          }
+      
+          public static void main(String[] args) {
+              HashMap<Integer, Integer> map = new HashMap<>();
+      
+              Scanner scanner = new Scanner(System.in);
+              int n = scanner.nextInt();
+              for (int i = 0; i < n; ++i) {
+                  map.put(scanner.nextInt(), scanner.nextInt());
+              }
+      
+              printMaxKey(map);
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25737#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 31 Jan 2024 09:39:35 UTC"
+record: -1
+submission_language: java17
